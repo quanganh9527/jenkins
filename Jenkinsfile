@@ -10,9 +10,9 @@ def notifySlack(color, text, channel) {
 }
 
 pipeline {
-  // agent {
-  //     docker { image 'acrisliu/jenkins-nodejs' }
-  // }
+  agent {
+    label "jenkins-nodejs"
+  }
   environment {
     ORG = 'infodation'
     APP_NAME = 'eeac-portal'

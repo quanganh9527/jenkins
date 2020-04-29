@@ -11,7 +11,7 @@ def notifySlack(color, text, channel) {
 
 pipeline {
   agent {
-    label "nodejs"
+      docker { image 'node:7-alpine' }
   }
   environment {
     ORG = 'infodation'

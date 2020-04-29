@@ -1,0 +1,15 @@
+.btn-filter {
+  &:focus {
+    color: #d9230f !important;
+  }
+
+  &:hover {
+    color: #d9230f !important;
+  }
+
+  .second-icon {
+    position: absolute;
+    bottom: 3px;
+    right: 7px;
+  }
+}

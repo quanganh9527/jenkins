@@ -1,0 +1,122 @@
+.btn-group {
+  .btn-icon {
+    &.bd-r-50 {
+      &.btn-condition {
+        padding: 10px 10px;
+        border-radius: 50%;
+        background-color: #f0f3f5;
+        border: none;
+        outline: none;
+
+        &.active,
+        &:hover {
+          background-color: #f0f3f5;
+          &.happy {
+            background-color: #edfbef;
+          }
+          &.neutral {
+            background-color: #fff3ea;
+          }
+          &.sad {
+            background-color: #fae9e9;
+          }
+          > .emoticon-happy-icon {
+            fill: #4cd964;
+          }
+          > .emoticon-neutral-icon {
+            fill: #ff8d36;
+          }
+          > .emoticon-sad-icon {
+            fill: #d2232a;
+          }
+          > .camera-icon,
+          > .currency-eur-icon {
+            fill: #1d3557;
+          }
+        }
+
+        &:first-child,
+        &:last-child,
+        &:not(:last-child),
+        &:not(:first-child) {
+          border-radius: 50%;
+        }
+        &:not(:first-child) {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+
+.camera-icon,
+.currency-eur-icon {
+  fill: #457b9d;
+}
+
+.inspection-point-item {
+  margin-top: 15px;
+  &.has-ready {
+    margin-top: 40px;
+  }
+}
+
+.dropdown-content, .react-datepicker-popper {
+  z-index: 99!important;
+}
+.react-datepicker {
+  z-index: 99 !important;
+}
+.react-datepicker-popper {
+  z-index: 99 !important;
+}
+
+.breadcrumb-unit {
+  background-color: transparent!important;
+  .breadcrumb {
+    margin: 0;
+    background-color: transparent!important;
+    .breadcrumb-item {
+      color: #d2232a;
+    }
+  }
+}
+.action {
+  cursor: pointer;
+  display: table-cell;
+  padding-left: 4px;
+  float: right;
+  margin-left: auto;
+}
+
+.action:hover {
+  color: #d2232a;
+}
+.select-all-tree-tag {
+  display: none;
+}
+
+.eeac-units-breadcrumb {
+  cursor: pointer;
+  > .breadcrumb {
+    margin-bottom: 0;
+    > .breadcrumb-item {
+      color: #d2232a;
+      &.active {
+        color: #d2232a;
+        font-weight: 700;
+      }
+    }
+  }
+}
+.dropdown-tree-disable {
+  .search {
+    display: none;
+  }
+  .dropdown .dropdown-trigger.arrow:after {
+    display: none;
+  }
+}
+.react-images__positioner, .react-images__blanket {
+  z-index: 9999!important;
+}

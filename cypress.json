@@ -1,0 +1,9 @@
+{
+  "projectId": "99hgu7",
+  "pageLoadTimeout": 180000,
+  "chromeWebSecurity": false,
+  "reporter": "junit",
+  "reporterOptions": {
+     "mochaFile": "build/test-results/cypress/portal-test-output.xml"
+  }
+}

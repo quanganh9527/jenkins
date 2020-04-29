@@ -1,0 +1,22 @@
+export const UPDATE_PROFILE = "UPDATE_PROFILE";
+export const RECEIVE_PROFILE = "RECEIVE_PROFILE";
+
+export const UPDATE_PASSWORD_PROFILE = "UPDATE_PASSWORD_PROFILE";
+
+export const RECEIVE_MESSAGE = "RECEIVE_MESSAGE";
+
+export const FETCH_USER = "UserProfilePage/FETCH_USER";
+export const FETCH_USER_SUCCEEDED = "UserProfilePage/FETCH_USER_SUCCEEDED";
+export const FETCH_USER_FAILED = "UserProfilePage/FETCH_USER_FAILED";
+
+export const UPDATE_USER = "UserProfilePage/UPDATE_USER";
+export const UPDATE_USER_SUCCEEDED = "UserProfilePage/UPDATE_USER_SUCCEEDED";
+export const UPDATE_USER_FAILED = "UserProfilePage/UPDATE_USER_FAILED";
+
+export const UPDATE_USER_PASSWORD = "UserProfilePage/UPDATE_USER_PASSWORD";
+export const UPDATE_USER_PASSWORD_SUCCEEDED =
+  "UserProfilePage/UPDATE_USER_PASSWORD_SUCCEEDED";
+export const UPDATE_USER_PASSWORD_FAILED =
+  "UserProfilePage/UPDATE_USER_PASSWORD_FAILED";
+
+export const RESET_PROPS = "UserProfilePage/RESET_PROPS";

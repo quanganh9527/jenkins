@@ -1,0 +1,15 @@
+.list-employees {
+  .list-group-item.active,
+  .list-group-item:hover {
+    color: #212529;
+    background-color: #e0f3ff;
+  }
+}
+
+
+
+.list-group-item {
+  .btn-icon-wrapper {
+    font-size: 1.8rem;
+  }
+}

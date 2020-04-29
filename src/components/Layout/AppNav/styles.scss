@@ -1,0 +1,56 @@
+.nav-item-has-active-child {
+  // font-family: "Muli ExtraBold";
+  font-weight: 900;
+}
+.nav-item-active {
+  // font-family: "Muli SemiBold";
+  font-weight: 600;
+}
+.vertical-nav-menu {
+  margin-top: 18px;
+  .nav-item-container {
+    .nav-item-has-visible-child {
+      .nav-item-container-visible {
+        &.nav-item-container {
+          .nav-item-active {
+            .nav-item-link-active {
+              background-color: #d2232a1a;
+            }
+          }
+          .nav-item {
+            .nav-item-link {
+              &:hover {
+                background-color: #d2232a1a;
+              }
+            }
+          }
+          &:before {
+            background: #a8dadc;
+          }
+        }
+      }
+    }
+  }
+}
+
+.nav-menu-icon {
+  background-color: #d2232a;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+.nav-icon-inspections {
+  mask-image: url(../../../assets/icons/feature-search-outline.svg);
+}
+.nav-icon-locations {
+  mask-image: url(../../../assets/icons/map-marker-outline.svg);
+}
+.nav-icon-contacts {
+  mask-image: url(../../../assets/icons/account-box-outline.svg);
+}
+.nav-icon-invoices {
+  mask-image: url(../../../assets/icons/receipt.svg);
+}
+.nav-icon-home {
+  mask-image: url(../../../assets/icons/icons8-home.svg);
+}
+

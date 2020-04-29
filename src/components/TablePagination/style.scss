@@ -1,0 +1,39 @@
+// react-bootstrap-table-next pagination
+.table-responsive {
+  overflow-y: auto;
+  max-height: 450px;
+  .table {
+    margin-bottom: 0;
+  }
+}
+.react-bootstrap-table-pagination {
+  margin-top: 1em;
+  .react-bootstrap-table-page-btns-ul {
+    float: right;
+    .page-item {
+      .page-link {
+        color: #777;
+      }
+    }
+    .active {
+      background-color: #d9230f;
+      .page-link {
+        color: #fff;
+        // border: none;
+      }
+    }
+  }
+}
+._loading_overlay_overlay {
+  max-height: 450px ;
+  height: 100% !important;
+  margin-top: 0 !important;
+  z-index: 1;
+  ._loading_overlay_spinner {
+    svg {
+      circle {
+        stroke: #d9230f;
+      }
+    }
+  }
+}

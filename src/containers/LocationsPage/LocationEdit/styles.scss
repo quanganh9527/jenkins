@@ -1,0 +1,43 @@
+@import "../../../assets/base.scss";
+
+.contact-name-link {
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.grouping-name-link {
+  margin-top: 12px;
+  margin-left: 15px ;
+  .text-name{
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.color-inactive {
+  color: $brand;
+}
+.inactive-sub-unit, .inactive-unit {
+  margin-bottom: 1px;
+  .widget-content-wrapper {
+    min-height: 40px;
+    background: #e9ecef!important;
+    margin-bottom: 1px;
+  }
+}
+.sub-unit-child {
+  cursor: pointer;
+  &.active {
+    color: $brand;
+    background-color: #d2232a1a;
+    // font-family: $font-family-semi-bold;
+    font-weight: 600;
+  }
+}
+
+.btn-icon-remove {
+  font-size: medium;
+}

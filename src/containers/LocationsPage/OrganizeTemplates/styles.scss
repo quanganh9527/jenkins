@@ -1,0 +1,24 @@
+#modal-copy-template {
+  max-width: 750px;
+  .title-form {
+    border-bottom: 1px solid rgba(98, 16, 7, 0.125);
+  }
+  @media only screen and (max-width: 767px) {
+    .form-copy-to {
+      margin-top: 20px;
+    }
+  }
+}
+
+.btn-select-unit {
+  cursor: default !important;
+  &.active {
+    color: #d9230f;
+  }
+  .icon {
+    cursor: pointer;
+  }
+  .name-unit {
+    cursor: pointer;
+  }
+}

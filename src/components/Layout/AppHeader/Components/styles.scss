@@ -1,0 +1,13 @@
+.header-user-info {
+  .header-user-info-dropdown {
+    display: flex;
+    align-items: center;
+    .user-header-name {
+      margin-right: 55px;
+      display: flex;
+      align-items: flex-start;
+      /* justify-content: center; */
+      flex-direction: column;
+    }
+  }
+}

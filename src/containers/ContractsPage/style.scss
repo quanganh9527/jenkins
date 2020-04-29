@@ -1,0 +1,40 @@
+.input-group {
+  z-index: initial;
+}
+.react-datepicker-popper {
+  z-index: 102 !important;
+}
+.dropdown-content {
+  z-index: 103 !important;
+}
+.is-invalid {
+  .css-yk16xz-control {
+    border-color: red !important;
+  }
+  .dropdown .dropdown-trigger.arrow {
+    border-color: red !important;
+  }
+}
+.border-dotted {
+  border-style: dotted !important;
+}
+
+.disabled-date {
+  pointer-events: none;
+  color: #bbb;
+}
+.react-dropdown-tree-select {
+  .disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+    input {
+      background-color: transparent;
+    }
+    .tag {
+      background-color: transparent;
+    }
+    span {
+      color: hsl(0, 0%, 60%) !important;
+    }
+  }
+}

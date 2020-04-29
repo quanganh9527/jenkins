@@ -1,0 +1,13 @@
+.page-title-custom-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #a8dadc;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+.app-page-title {
+  .page-icon-bg {
+    background-color: #f0f3f5;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+  }
+}

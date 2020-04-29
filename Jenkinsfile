@@ -11,7 +11,7 @@ def notifySlack(color, text, channel) {
 
 pipeline {
   agent {
-    label "jenkins-nodejs"
+       docker { image 'acrisliu/jenkins-nodejs:lts' }
   }
   environment {
     ORG = 'infodation'
